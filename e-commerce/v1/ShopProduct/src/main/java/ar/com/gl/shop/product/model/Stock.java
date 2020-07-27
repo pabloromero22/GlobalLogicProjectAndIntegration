@@ -5,8 +5,17 @@ public class Stock {
 	private Integer quantity;
 	private String locationCode;
 	
-	public Stock() {		
+	public Stock() {				
 	}
+
+	public Stock(Long id, Integer quantity, String locationCode) {
+		super();
+		this.id = id;
+		this.quantity = quantity;
+		this.locationCode = locationCode;
+	}
+
+
 
 	public Long getId() {
 		return id;
