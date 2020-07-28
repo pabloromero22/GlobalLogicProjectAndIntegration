@@ -13,7 +13,7 @@ public class Product {
 public Product(){
 	
 }
-public Product (Long id, String name, String description, Integer Double price, Integer stock) {
+public Product (Long id, String name, String description, Integer double, Stock stock) {
         this.id = id;
         this.name = name;
         this.description = description;
