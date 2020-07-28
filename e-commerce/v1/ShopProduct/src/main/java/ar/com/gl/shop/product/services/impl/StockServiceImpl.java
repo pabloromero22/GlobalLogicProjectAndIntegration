@@ -2,7 +2,6 @@ package ar.com.gl.shop.product.services.impl;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import ar.com.gl.shop.product.model.Stock;
 import ar.com.gl.shop.product.services.StockService;
 
@@ -16,26 +15,26 @@ public class StockServiceImpl implements StockService{
 	//CRUD methods
 	@Override
 	public void createStock(Stock stock) {
-		//Repository.getInstance().createStock(Long id, Integer quantity, String locationCode)
+		//this.repository.createStock(stock)
 	}
 	
 	@Override
 	public Stock getStock(Long id) {
 		return new Stock();
-		//Repository.getInstance().getStock(Long id)
+		//this.repository.getStock(id)
 	}
 	
 	@Override
 	public List<Stock> getAllStocks() {
 		
 		return new ArrayList<Stock>();
-		//List<Stock> allStocks = Repository.getInstance().getAllStocks()
+		//List<Stock> allStocks = this.repository.getAllStocks()
 		//TODO print all stocks
 	}
 	
 	@Override
 	public void updateStock(Stock updatedStock) {
-		//Repository.getInstance().updateStock(Long id, Integer quantity, String locationCode)
+		//repository.updateStock(updatedStock)
 	}
 	
 	@Override
